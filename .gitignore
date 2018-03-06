@@ -1,7 +1,16 @@
+# yalc
+.yalc
+yalc.lock
+
+# DAMN YOU MACOS FINDER 🖕
 .DS_Store
+
+# serverless-framework and general best practice credential abstraction
 .env
 secrets.yml
 env.yml
+.webpack
+.serverless
 
 # Logs
 logs
@@ -56,9 +65,6 @@ typings/
 .*.sw*
 Session.vim
 
-# Serverless
-.webpack
-.serverless
 
-#DS
-.DS_Store
+
+# IF YOU CAN READ THIS, YOU'RE DEAD
