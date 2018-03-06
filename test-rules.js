@@ -11,8 +11,8 @@ const re = /\w\w*{1,}/;
 console.log(re);
 
 // Immutable - WORKS
-// const c = 'i am immutable!';
-// c = 'jj';
+const c = 'i am immutable!';
+c = 'jj';
 
 // No loops & security- WORKS
 const books = ['gat', 'hieaf'];
@@ -22,11 +22,11 @@ for (let i = 0; i < books.length; i++) {
 }
 
 // Promises - WORKS
-// Promise.resolve(1)
-//   .then(() => {
-//     throw new Error('oops');
-//   })
-//   .catch(log);
+Promise.resolve(1)
+  .then(() => {
+    throw new Error('oops');
+  })
+  .catch(log);
 
 // Throw new error - plugin/unicorn - WORKS
 // const e =  Error('errors are bad mmkay');
@@ -36,7 +36,7 @@ for (let i = 0; i < books.length; i++) {
 // [...'hello'].map(() => 'nope');
 
 // Process.exit() - WORKS
-// process.exit();
+process.exit();
 
 // Throw new Error - WORKS
-// throw new Error('hi');
+// throw  Error('hi');
