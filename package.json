@@ -1,0 +1,27 @@
+{
+  "name": "@sandalsoft/eslint-config",
+  "version": "0.1.0",
+  "description": "Sandalsoft ESLint shareable config",
+  "license": "MIT",
+  "author": "Eric Nelson",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "files": ["index.js"],
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.12.3",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-unicorn": "^4.0.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.1.1"
+  }
+}
