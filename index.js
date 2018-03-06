@@ -14,7 +14,7 @@ module.exports = {
     node: true,
     jest: true
   },
-  plugins: ['unicorn', 'no-loops', 'promise', 'security', 'jest'],
+  plugins: ['no-loops', 'promise', 'security', 'jest', 'unicorn'],
   extends: [
     'eslint:recommended',
     'plugin:promise/recommended',

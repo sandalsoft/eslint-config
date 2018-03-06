@@ -10,7 +10,9 @@
   "scripts": {
     "test": "node test/test.js"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
     "babel-eslint": "^8.2.2",
     "eslint": "^4.18.2",
